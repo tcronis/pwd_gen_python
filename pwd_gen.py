@@ -2,7 +2,7 @@ import random
 import time
 
 # collecting the max length of the password
-max = raw_input("Max length? ")
+max = input("Max length? ")
 pwd = ''
 special = ['!', '@', '#', '$', '%', '&']
 random.seed(int(round(time.time() * 1000)))
